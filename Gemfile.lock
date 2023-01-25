@@ -51,6 +51,10 @@ GEM
     coffee-script-source (1.12.2)
     concurrent-ruby (1.1.9)
     crass (1.0.6)
+    dotenv (2.8.1)
+    dotenv-rails (2.8.1)
+      dotenv (= 2.8.1)
+      railties (>= 3.2)
     erubis (2.7.0)
     execjs (2.8.1)
     faraday (2.7.4)
@@ -186,6 +190,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  dotenv-rails (~> 2.8)
   jquery-rails
   omniauth (~> 2.1)
   omniauth-github (~> 2.0)
